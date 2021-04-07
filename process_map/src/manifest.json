@@ -1,0 +1,24 @@
+{
+  "name": "Process Map",
+  "organization": "Wei Lin",
+  "description": "Process Map visualization.",
+  "logoUrl": "https://www.nicepng.com/png/full/432-4325705_process-map-icon-png-download-mappings-icon.png",
+  "organizationUrl": "https://url",
+  "supportUrl": "https://url",
+  "privacyPolicyUrl": "https://url",
+  "termsOfServiceUrl": "https://url",
+  "packageUrl": "https://url",
+  "devMode": "DEVMODE_BOOL",
+  "components": [
+    {
+      "name": "Process Map",
+      "description": "Process Map visualization",
+      "iconUrl": "https://www.nicepng.com/png/full/432-4325705_process-map-icon-png-download-mappings-icon.png",
+      "resource": {
+        "js": "YOUR_GCS_BUCKET/index.js",
+        "config": "YOUR_GCS_BUCKET/index.json",
+        "css": "YOUR_GCS_BUCKET/index.css"
+      }
+    }
+  ]
+}

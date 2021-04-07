@@ -1,0 +1,32 @@
+{
+  "dsccViz": {
+    "gcsDevBucket": "YOUR_GSC_BUCKET/dev",
+    "gcsProdBucket": "YOUR_GSC_BUCKET/prod",
+    "jsFile": "index.js",
+    "jsonFile": "index.json",
+    "cssFile": "index.css",
+    "print": "printMessage.js"
+  },
+  "scripts": {
+    "build:dev": "dscc-scripts viz build -d dev",
+    "build:prod": "dscc-scripts viz build -d prod",
+    "push:dev": "dscc-scripts viz push -d dev",
+    "push:prod": "dscc-scripts viz push -d prod",
+    "update_message": "dscc-scripts viz update_message -f object",
+    "start": "dscc-scripts viz start"
+  },
+  "devDependencies": {
+    "@google/dscc": "^0.3.17",
+    "@google/dscc-scripts": "^1.0.17",
+    "copy-webpack-plugin": "^4.6.0"
+  },
+  "dependencies": {
+    "@hpcc-js/wasm": "^0.3.15",
+    "d3": "^6.6.2",
+    "d3-graphviz": "^3.0.5",
+    "d3-sankey": "^0.12.3",
+    "jquery": "^3.6.0",
+    "vis-data": "^7.1.2",
+    "vis-network": "^9.0.4"
+  }
+}
